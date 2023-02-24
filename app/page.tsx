@@ -6,6 +6,8 @@ function HomePage() {
       <h1 className="text-5xl font-bold mb-28">ChatGPT</h1>
 
       <div className='flex space-x-2 text-center'>
+
+        {/* Examples */}
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
             {/* SunIcon */}
@@ -20,10 +22,10 @@ function HomePage() {
           </div>
         </div>
 
-
+        {/* Capabilities */}
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
-            {/* SunIcon */}
+            
             <BoltIcon className="h-8 w-8"/>
             <h2>Capabilities</h2>
           </div>
@@ -35,9 +37,10 @@ function HomePage() {
           </div>
         </div>
 
+        {/* Limitations */}
         <div>
           <div className="flex flex-col items-center justify-center mb-5">
-            {/* SunIcon */}
+            
             <ExclamationTriangleIcon className="h-8 w-8"/>
             <h2>Limitations</h2>
           </div>
