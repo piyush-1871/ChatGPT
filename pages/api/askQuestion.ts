@@ -25,7 +25,8 @@ export default async function handler(
   const response = await query(prompt, chatId, model);
 
   const message: Message = {
-    text: response || "ChatGPT cannot fid the answer!"
+    text: response || "ChatGPT cannot fid the answer!",
+    
   }
   res.status(200).json({ name: 'John Doe' })
 }
