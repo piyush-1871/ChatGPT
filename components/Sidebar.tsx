@@ -26,7 +26,7 @@ function Sidebar() {
         <div>
           <NewChat />
 
-          <div className="hidden sm:inline">
+          <div className="hidden md:inline">
             {/* Model Selection */}
             <ModelSelection />
           </div>
