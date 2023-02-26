@@ -26,7 +26,11 @@ function Sidebar() {
           {/* NewChat */}
           <NewChat />
 
-          <div>{/* Model Selection */}</div>
+          <div className="hidden sm:inline">
+            {/* Model Selection */}
+            <ModelSelection />
+          
+          </div>
 
           {/* Map through the chatrows */}
           {chats?.docs.map((chat) => (
